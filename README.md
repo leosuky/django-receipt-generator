@@ -1,6 +1,6 @@
  # Backend Engingeer Test
 
-This test is meant to be submitted within 48 hours of receipt. We expect that you implement all tasks in the same project using Python. 
+This is a power test is meant to be submitted within 48 hours of receipt. We expect that you implement all tasks in the same project using Python. 
 
 You will be judged on a scale of 100 for completion, correctness, clean code and documentation.
 
@@ -22,3 +22,6 @@ You are tasked to build a receipt generation API that allows only authenticated 
 - API is deployed to Heroku (or a cloud hosting equivalent)
 
 - Bonus points for a very simple front-end application (could be in React or Vue) that consumes the API. You can send us a link to this app hosted on either Vercel or Netlify.
+
+
+All the best!
