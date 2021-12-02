@@ -23,11 +23,12 @@ Build a receipt generation system that **conveniently** allows users to generate
 
 ## Task 2
 
-Expose the system to the public via an API endpoint such that the frontend application can call it with the necessary details and the receipts will be generated. However, we must ensure that only authenticated and authorized users are able to generate these receipts. **DONE** -- https://dukka-book-keeping.herokuapp.com/
+Expose the system to the public via an API endpoint such that the frontend application can call it with the necessary details and the receipts will be generated. However, we must ensure that only authenticated and authorized users are able to generate these receipts. **DONE** -- https://dukka-book-keeping.herokuapp.com/api-doc
 
 ## Task 3 (Bonus)
 
-Implement an interactive UI with which we can play with the API. 
+Implement an interactive UI with which we can play with the API. **DONE** -- https://dukka-book-keeping.netlify.app/
+**PLEASE NOTE** -- You can login with an exisiting user to view the app (username:"jgarnz@yahoo.com", password:"1ihatecheese1") or sign up with yours and login.
 
 Hint: Swagger UI is perfect. A React or Vue app hosted on Vercel or Netlify is also fine.
 
