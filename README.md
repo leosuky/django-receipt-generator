@@ -18,12 +18,12 @@ At the very least, the receipt should contain: Name, Address, Phone Number and T
 
 ## Task 1
 
-Build a receipt generation system that **conveniently** allows users to generate the receipts PDF. Please bear in mind that the system is not expected to return the receipts to the frontend. They can be saved in any medium you deem fit.
+Build a receipt generation system that **conveniently** allows users to generate the receipts PDF. Please bear in mind that the system is not expected to return the receipts to the frontend. They can be saved in any medium you deem fit. **DONE**
 
 
 ## Task 2
 
-Expose the system to the public via an API endpoint such that the frontend application can call it with the necessary details and the receipts will be generated. However, we must ensure that only authenticated and authorized users are able to generate these receipts.
+Expose the system to the public via an API endpoint such that the frontend application can call it with the necessary details and the receipts will be generated. However, we must ensure that only authenticated and authorized users are able to generate these receipts. **DONE** -- https://dukka-book-keeping.herokuapp.com/
 
 ## Task 3 (Bonus)
 

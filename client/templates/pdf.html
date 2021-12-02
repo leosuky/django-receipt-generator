@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Receipt</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            font-family: Arial;
+        }
+
+        body {
+            padding: 30px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .body {
+            height: 400px;
+            width: 90%;
+            margin: 50px;
+
+        }
+        .horzline {
+            margin-top: 8px;
+            margin-bottom: 15px;
+        }
+        .fullwidth {
+            width: 100%
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="company-name">
+            <h2><strong>DUKKA BOOK-KEEPING</strong></h2>
+        </div>
+        <h4>RECEIPT</h4>
+    </div>
+
+    <hr class="horzline">
+
+    <div class="body">
+        <h1><strong>CUSTOMER DETAILS</strong></h1>
+        <hr class="horzline">
+
+        <p>Client Name: <strong>{{receipt.client.name}}</strong></p>
+        <br>
+        <p>Address: <strong>{{receipt.client.address1}}</strong></p>
+        <br>
+        <p>Phone: <strong>{{receipt.client.phone}}</strong></p>
+        <br>
+        <p>Email: <strong>{{receipt.client.email}}</strong></p>
+        <br>
+        <p>City: <strong>{{receipt.client.place}}</strong></p>
+        <br>
+        <p>Country: <strong>{{receipt.client.country}}</strong></p>
+        <br>
+        <br>
+
+        <h1><strong>TRANSACTION DETAILS</strong></h1>
+        <hr class="horzline">
+
+        <p>Product: <strong>{{receipt.title}}</strong></p>
+        <br>
+        <p>Description: <strong>{{receipt.description}}</strong></p>
+        <br>
+        <p>Amount Paid: <strong>{{receipt.amount}}</strong></p>
+        <br>
+
+    </div>
+</body>
+</html>
